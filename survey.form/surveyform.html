@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+<title>survey form</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<h2>Sample Survey Form</h2>
+<small><i>Fill Out The Survey Form</i></small>
+<form action="submit.html" target="_blank"> 
+	<label for="fname"> Name:</label><br>
+<input type="text" class="text" name="name" id="name" placeholder="Enter your name"><br><br>
+	
+	<label for="Email">Email:</label><br>
+<input type="text" class="text" name="email" id="email" placeholder="Enter  your email"><br><br>
+	<label for="age">Age:</label><br>
+<input type="text"  class="text" name="age" id="age" placeholder="Enter  your age"><br><br>
+Which option best describes your current role?<br>
+<select>
+		<opttion>select current role</otion>
+		<option>student</option>
+		<option>faculty</option>
+		</select><br><br>
+How would you rate your codings skills?<br>
+<input type="radio" name="radio">good<br>
+<input type="radio" name="radio">average<br>
+<input type="radio" name="radio">poor<br>
+<br>
+What would you like to learn?<br>
+<input type="checkbox" name="checkbox">Fornt-end Development<br>
+<input type="checkbox" name="checkbox">Back-end Development<br>
+<input type="checkbox" name="checkbox">Full=stack Development<br>
+Any comments or suggestions?<br>
+<textarea placeholder="Enter your comment here....."></textarea><br>
+<button>submit</button>
+</form>
+</body>
+</html>
